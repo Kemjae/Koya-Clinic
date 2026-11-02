@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4fa;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1e6091;
+}
+
+h2 {
+    color: #1e6091;
+}
+
+p {
+    color: #333;
+}
+
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #b3d9ed;
+}
+
+input,
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b3d9ed;
+}
+
+button {
+    background-color: #1e6091;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #14476b;
+}
+
+#confirmation {
+    background-color: white;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+
+/* Tablet screens */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    form {
+        max-width: 90%;
+    }
+    input,
+    select {
+        width: 90%;
+    }
+}
+/* Mobile phone screens */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    form {
+        width: 95%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    input,
+    select {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}

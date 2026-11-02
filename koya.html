@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koya clinic</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="koya.css">
+</head>
+
+<body>
+
+    <h1>Clinic Appointment Booking</h1>
+
+    <p>Welcome! Book your clinic appointment below.</p>
+
+    <h2>Available Appointment Slots</h2>
+
+    <div id="slots">
+        <button class="slot">9:00 AM</button>
+        <button class="slot">10:00 AM</button>
+        <button class="slot">11:00 AM</button>
+    </div>
+
+    <h2>Book an Appointment</h2>
+
+    <form id="bookingForm">
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <button type="submit">Book Appointment</button>
+
+    </form>
+
+    <h2>Booking Confirmation</h2>
+
+    <p id="confirmation">
+        Your booking confirmation will appear here.
+    </p>
+
+    <script src="koya.js"></script>
+</body>
+
+</html>
