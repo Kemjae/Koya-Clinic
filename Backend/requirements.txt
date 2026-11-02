@@ -1,2 +1,4 @@
 fastapi[standard]
 email-validator
+psycopg[binary]
+python-dotenv
